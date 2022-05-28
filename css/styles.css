@@ -1,0 +1,79 @@
+
+body{
+  margin:0;
+  font-family: 'Merriweather', serif;
+  }
+h1
+{ font-size: 3.625em;
+ font-family: 'Sacramento', sans-serif;
+ color: #66BFBF;
+ margin-bottom: 3px;
+}
+h2
+{
+    color: #66BFBF;
+}
+h3
+{
+  color:#11999E;
+}
+a{
+  color: #11999E;
+}
+.hor-rule{
+  width:15%;
+  border-style:dotted none none;
+  color: #7F8487;
+  border-width: 5px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.top-cloud{
+  margin:0;
+  position:absolute ;
+  right:300px;/*iska parent top container hai uske hisab se absolutechalega*/
+  top:50px;
+}
+
+.top-container{
+  background-color: #EAF6F6;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container{
+  background-color: #EAF6F6;
+  text-align: center;
+  padding-top: 100px;
+}
+.Web-Dev{ /*whole block ka width reduce kiya*/
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+.web-development-img{
+  float: left;
+  margin-right: 30px;
+  }
+.for-para{
+  padding-top: 15px;
+}
+.Coding{ /*whole block ka width reduce kiya*/
+  width:50%;
+  margin: auto;
+}
+.coding-img{
+  float: right;
+  margin-left: 30px;
+  }
+.for-para-2{
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  top:300px;
+}
