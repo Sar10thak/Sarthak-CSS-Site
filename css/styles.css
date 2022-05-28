@@ -2,6 +2,7 @@
 body{
   margin:0;
   font-family: 'Merriweather', serif;
+  color: #40514E;
   }
 h1
 { font-size: 3.625em;
@@ -19,6 +20,15 @@ h3
 }
 a{
   color: #11999E;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+.intro-2{
+  width:30%;
+  margin: auto;
+  padding-bottom: 30px;
 }
 .hor-rule{
   width:15%;
@@ -39,12 +49,12 @@ a{
   background-color: #EAF6F6;
   text-align: center;
   padding-top: 100px;
-  position: relative;
 }
 .middle-container{
   background-color: #EAF6F6;
   text-align: center;
   padding-top: 100px;
+  padding-bottom: 60px;
 }
 .Web-Dev{ /*whole block ka width reduce kiya*/
   width:50%;
@@ -77,3 +87,17 @@ a{
   left:300px;
   top:300px;
 }
+.bottom-container{
+  background-color: #37E2D5;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-link{
+  margin:auto 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+
