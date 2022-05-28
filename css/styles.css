@@ -1,4 +1,5 @@
 
+
 body{
   margin:0;
   font-family: 'Merriweather', serif;
@@ -8,7 +9,7 @@ h1
 { font-size: 3.625em;
  font-family: 'Sacramento', sans-serif;
  color: #66BFBF;
- margin-bottom: 3px;
+ margin-bottom: 0.1875rem;
 }
 h2
 {
@@ -28,46 +29,46 @@ a{
 .intro-2{
   width:30%;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 .hor-rule{
   width:15%;
   border-style:dotted none none;
   color: #7F8487;
-  border-width: 5px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  border-width: 0.3125rem;
+  margin-top: 4.375rem;
+  margin-bottom: 4.375rem;
 }
 .top-cloud{
   margin:0;
   position:absolute ;
-  right:300px;/*iska parent top container hai uske hisab se absolutechalega*/
-  top:50px;
+  right:18.75rem;/*iska parent top container hai uske hisab se absolutechalega*/
+  top:3.125rem;
 }
 
 .top-container{
   background-color: #EAF6F6;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 .middle-container{
   background-color: #EAF6F6;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 60px;
+  padding-top: 6.25rem;
+  padding-bottom: 3.75rem;
 }
 .Web-Dev{ /*whole block ka width reduce kiya*/
   width:50%;
-  margin:100px auto 100px auto;
+  margin:6.25rem auto 6.25rem auto;
   text-align: left;
 
 }
 .web-development-img{
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
   }
 .for-para{
-  padding-top: 15px;
+  padding-top: 0.9375rem;
 }
 .Coding{ /*whole block ka width reduce kiya*/
   width:50%;
@@ -75,29 +76,30 @@ a{
 }
 .coding-img{
   float: right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
   }
 .for-para-2{
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-top: 0.9375rem;
+    padding-bottom: 3.125rem;
   }
 
 .bottom-cloud{
   position: absolute;
-  left:300px;
-  top:300px;
+  left:18.75rem;
+  top:18.75rem;
 }
 .bottom-container{
   background-color: #37E2D5;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .footer-link{
-  margin:auto 20px;
+  margin:auto 1.25rem;
   text-decoration: none;
 }
 a:hover{
   color: white;
 }
+
 
